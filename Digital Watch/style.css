@@ -1,0 +1,65 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #091920;
+}
+@font-face {
+    font-family: atish;
+    src: url(Paytone_One/PaytoneOne-Regular.ttf);
+}
+#title{
+    padding-top:25px;
+    color: white;
+    font-family: atish;
+}
+.container-sm{
+    margin-top: 80px;
+    font-weight: bold;
+    font-size: 500%;
+    color: rgb(66, 65, 65);
+    width: 810px;
+    height: 350px;
+    border: 5px solid #ff00f2;
+    box-shadow: 0px 0px 10px #ff00f2 ;
+    box-shadow: 10px 10px 50px #f799f2;
+
+}
+.col-3{
+    padding-top: 75px;
+    width: 200px;
+    height: 200px;
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    
+}
+
+.col-3 div{
+    padding-top: 0px;
+    width: 170px;
+    height: 170px;
+    box-shadow: 10px 10px 20px lightblue;
+    border-radius: 20px;
+}
+
+#hours{
+    background-color: #11B8FC;
+}
+#minutes{
+    background-color: aqua;
+}
+#seconds{
+    background-color: #F70069;
+}
+#shift{
+    background-color: #FC8825;
+}
+
+footer p{
+    margin-top: 50px;
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+}
